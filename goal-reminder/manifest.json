@@ -1,0 +1,13 @@
+{
+  "name": "My Home Page",
+  "version": "1.0",
+  "description": "my home page to remind my short-term goal.",
+
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+  }, 
+
+  "minimum_chrome_version": "14",
+
+  "manifest_version": 2
+}

@@ -3,6 +3,21 @@
   "version": "1.0",
   "description": "my home page to remind my short-term goal.",
 
+  "permissions": [
+    "notifications", "alarms"
+  ],
+
+  // Note: Because of bug 134315, you must declare any images you
+  // want to use with createNotification() as a web accessible resource.
+  "web_accessible_resources": [
+    "img/fake.png"
+  ],
+
+  "background": {
+    "scripts": ["javascript/background.js"],
+    "persistent": false
+  },
+
   "chrome_url_overrides": {
     "newtab": "dashboard.html"
   }, 
